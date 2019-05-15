@@ -1,3 +1,6 @@
+Problem Source - https://www.hackerrank.com/challenges/sherlock-and-squares/problem
+Discussion - https://coderinme.com/sherlock-and-squares-hackerrank-problem-solution/
+
 import itertools
 
 q = int(input())
