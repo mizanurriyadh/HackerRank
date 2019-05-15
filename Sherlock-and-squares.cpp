@@ -1,20 +1,23 @@
+Problem Source - https://www.hackerrank.com/challenges/sherlock-and-squares/problem
+Discussion - https://coderinme.com/sherlock-and-squares-hackerrank-problem-solution/
+
 #include <bits/stdc++.h>
 
 using namespace std;
 
 int main ()
 {
-  int q, a, b, c, d, count;
+  int q, a, b, sqrta, sqrtb, squareIntegers;
   scanf ("%d", &q);
   while (q--)
     {
       scanf ("%d %d", &a, &b);
 
-      c = ceil (sqrt (a));
-      d = floor (sqrt (b));
-      count = (d - c) + 1;
+      sqrta = ceil (sqrt (a));
+      sqrtb = floor (sqrt (b));
+      squareIntegers = (sqrtb - sqrta) + 1;
 
-      printf ("%d\n", count);
+      printf ("%d\n", squareIntegers);
     }
   return 0;
 }
