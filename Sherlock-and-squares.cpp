@@ -1,5 +1,5 @@
-Problem Source - https://www.hackerrank.com/challenges/sherlock-and-squares/problem
-Discussion - https://coderinme.com/sherlock-and-squares-hackerrank-problem-solution/
+/* Problem Source - https://www.hackerrank.com/challenges/sherlock-and-squares/problem
+Discussion - https://coderinme.com/sherlock-and-squares-hackerrank-problem-solution/  */
 
 #include <bits/stdc++.h>
 
